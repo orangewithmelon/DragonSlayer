@@ -16,4 +16,16 @@ public class Dragon {
             return 15;
         }
     }
+
+    public void subtractHealth(int num) {
+        health-=num;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public int getLevel() {
+        return level;
+    }
 }

@@ -7,4 +7,8 @@ public class Room {
         dragon = new Dragon();
         name = str;
     }
+
+    public Dragon getDragon() {
+        return dragon;
+    }
 }
